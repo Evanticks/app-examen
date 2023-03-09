@@ -18,7 +18,7 @@ services:
     image: mariadb:10.5
     restart: always
     environment:
-      MARIADB_ROOT_PASSWORD: root
+      MARIADB_ROOT_PASSWORD: app
       MARIADB_DATABASE: app
       MARIADB_USER: app
       MARIADB_PASSWORD: app
