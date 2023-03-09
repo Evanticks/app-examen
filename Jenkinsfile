@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        IMAGEN = "evanticks/django_tutorial"
+        IMAGEN = "evanticks/app-examen"
         LOGIN = 'USER_DOCKERHUB'
     }
     agent none
